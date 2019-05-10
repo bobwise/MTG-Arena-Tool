@@ -304,7 +304,7 @@ function deckStatsSection(deck, deck_type) {
     ).appendTo(costSection);
   });
   $(
-    `<div title="Aproximate boosters" class="wc_cost wc_booster">${Math.round(boosterCost)}</div>`
+    `<div title="Approximate boosters" class="wc_cost wc_booster">${Math.round(boosterCost)}</div>`
   ).appendTo(costSection);
 
   costSection.appendTo(stats);
